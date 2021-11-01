@@ -1,0 +1,9 @@
+# 5. Write a Python program to swap two variables without temp variable?
+
+# In this program we take inputs from user and swap the variables.
+
+a = input("Enter the first value: ")
+b = input("Enter the second value: ")
+print("Before swapping the values of a is {0} & b is {1} ".format(a,b))
+a,b = b,a
+print("After swapping the values of a is {0} & b is {1} ".format(a,b))
