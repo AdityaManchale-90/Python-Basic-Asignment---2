@@ -1,0 +1,8 @@
+# 1. Write a Python program to convert kilometers to miles?
+
+# In this program we take input from user and convert to miles from kilometers by using conversion factor = 0.621371
+
+km = input("Enter the values in kilometers: ")
+conv_fact = 0.621371
+mi = float(km) * conv_fact
+print("For {0} km the value of mile is {1} mi." .format(km,mi))
