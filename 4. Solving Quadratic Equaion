@@ -1,0 +1,17 @@
+# 4. Write a Python program to solve quadratic equation?
+
+"""in this program we will solve quadratic equation of ax**2+bx+c=0
+    by using (-b±(sqrt(b**2-4*a*c))/2*a"""
+# import complex math module
+import cmath
+
+# Enter only a,b,c values.
+a = input("Enter Value of 'a' from the equation: ")
+b = input("Enter the Value of 'b' from the equation: ")
+c = input("Enter the Value of 'c' from the equation: ")
+
+d = (float(b)**2) - (4*float(a)*float(c))
+x1 = (-float(b)+cmath.sqrt(d))/(2*float(a))
+x2 = (-float(b)-cmath.sqrt(d))/(2*float(a))
+
+print("The values of x are ", x1 , "& ", x2)
