@@ -1,0 +1,11 @@
+# 3. Write a Python program to display calendar?
+
+# importing calendar module
+import calendar
+
+# Here we take month and year input from the user.
+yyyy = int(input("Enter year in YYYY format: "))
+mm = int(input("Enter month in MM format: "))
+
+# To display the calendar
+print(calendar.month(yyyy, mm))
