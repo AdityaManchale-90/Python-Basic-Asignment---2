@@ -1,0 +1,8 @@
+# 2. Write a Python program to convert Celsius to Fahrenheit?
+
+""" In this program we take input from user and convert from Celsius
+    to Fahrenheit by using formula (1°C × 9/5) + 32 = 33.8°F.   """
+
+cel = input("Enter the temperature in Celsius: ")
+ft = (float(cel) * 9/5) +32
+print("For {0} Degree Celsius the Temperature in Fahrenheit is {1}0F." .format(cel,ft))
